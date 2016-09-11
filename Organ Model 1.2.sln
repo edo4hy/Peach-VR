@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organ Model 1.2.CSharp", "Organ Model 1.2.CSharp.csproj", "{B48DFACA-CBAE-1578-A40D-DBBBB21BB647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organ Model 1.2.CSharp.Editor", "Organ Model 1.2.CSharp.Editor.csproj", "{C4E10DC3-6F82-0F17-8A00-CED2B407AFA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B48DFACA-CBAE-1578-A40D-DBBBB21BB647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48DFACA-CBAE-1578-A40D-DBBBB21BB647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48DFACA-CBAE-1578-A40D-DBBBB21BB647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48DFACA-CBAE-1578-A40D-DBBBB21BB647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E10DC3-6F82-0F17-8A00-CED2B407AFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E10DC3-6F82-0F17-8A00-CED2B407AFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E10DC3-6F82-0F17-8A00-CED2B407AFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E10DC3-6F82-0F17-8A00-CED2B407AFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

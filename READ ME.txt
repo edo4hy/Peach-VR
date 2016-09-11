@@ -1,0 +1,52 @@
+Running the application ******************************************
+
+The application can be run in Unity. Simply load it as a project. 
+
+Meshes are loaded from Assets/Resources/Kidney_bone_meshes. New meshes can be added here. The whole of the folder is loaded so only include the meshes of a particular model. 
+
+Meshes have to be in Unity compatible format, preferable 3ds or Obj. 
+	* VTK can be converted to STL in 3DSlicer 
+	* STL can then be converted to obj/3ds using online converters : http://www.greentoken.de/onlineconv/ 
+
+The Model_Controller script looks for the name of the structure and so each mesh must follow the naming convention below so appropriate colours are added. With file name
+containing : 
+	“art” – Artery 
+	“ven” – Vein 
+	“uri” – Urethra
+	“kid” – Kidney 
+	“med” – Medulla 
+	“bon” – Bone 
+	“tum” – Tumour 
+
+New structures not listed above must have colours added to the colour store Game Object and then update the Model_Controller script so the naming convention loads the colour 
+to the structure. 
+
+
+*****************************************************************************
+Controls for HTC Vive:
+
+	* Grip Button - Position 
+	* Trigger Button - Rotate 
+	* Both Trigger - Scale 
+	* Grip left + Grip Right - Ruler
+	* Grip Right + Trigger Right - Step out 
+	* Touch pad left press / Right press - select strucutre
+	* Touch pad touch down scroll - effect transparency 
+
+Note: 	- Left controller vibrates on start scene 
+	- Orb bottom left corner of view represents selected structures colour 
+
+***********************************************************************************
+
+
+Currently set up to work with the HTC Vive – to control with Xbox controller 
+Set up camera to camera of choice. 
+Detach Interactable_items & Mesh_Shrink from KidneyFull
+Attach Scripts from Xbox_Scripts to KindeyFull: 
+ * Change_Position 
+ * Change_Scale 
+ * Fade_GameObject 
+ * Rotate_GameObject 
+ * Select_GameObject
+ * Separate_Out
+
